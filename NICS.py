@@ -9,12 +9,19 @@ such that it is placed in the XZ plane. A ghost atom is then placed at a user ch
 script attempts to find all aromatic rings automatically and only fails at locating central aromatic
 rings or ones containing trans double bonds.
 
+Note: Since the script begins with a random atom in the input coordinates it is not necessarily the case
+that the script will output the same XYZ coordinates when the same file is input.
+
 This script is beneficial since it can be used with the command line, allowing for a high throughput
 of structures. Rings may be chosen manually in cases where rings are not located automatically.
 
 Note: Atom numbers start at "0"
 
-The script is not 100% complete, but it is usable in its current form.
+The script is not 100% complete and has a lot of untrimmed/useless code. However, it is usable in its current form.
+
+Have fun
+
+=)
 
 
 """
