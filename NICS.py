@@ -4,20 +4,23 @@
 Karn Parmar
 an organic chemist
 
-This script allows you to take a compound containing an aromatic ring and manipulate the xyz coordinates 
-such that it is placed in the XZ plane. A ghost atom is then placed at a user chosen position. The
+This script allows you to locate and place Bqs in all aromatic rings by using input xyz coordinates. The
 script attempts to find all aromatic rings automatically and only fails at locating central aromatic
-rings or ones containing trans double bonds.
+rings or ones containing trans double bonds. There are various options for the user in placing the Bq.
 
 Note: Since the script begins with a random atom in the input coordinates it is not necessarily the case
 that the script will output the same XYZ coordinates when the same file is input.
 
 This script is beneficial since it can be used with the command line, allowing for a high throughput
-of structures. Rings may be chosen manually in cases where rings are not located automatically.
+of structures. Rings may be chosen manually in cases where rings are not located automatically. In the case
+where a compound contains multiple aromatic rings, it randomly chooses which ring to place in the XZ plane
+unless told to do otherwise.
 
 Note: Atom numbers start at "0"
 
 The script is not 100% complete and has a lot of untrimmed/useless code. However, it is usable in its current form.
+
+More details and commands can be found by simply running the script without input
 
 Have fun
 
