@@ -4,9 +4,8 @@
 Karn Parmar
 an organic chemist
 
-This script allows you to locate and place Bqs in all aromatic rings by using input xyz coordinates. The
-script attempts to find all aromatic rings automatically and only fails at locating central aromatic
-rings or ones containing trans double bonds. There are various options for the user in placing the Bq.
+This script allows you to automatically  locate aromatic rings from xyz coordinates. 
+There are various options for the user in placing the ghost atom (Bq).
 
 Note: Since the script begins with a random atom in the input coordinates it is not necessarily the case
 that the script will output the same XYZ coordinates when the same file is input.
@@ -20,7 +19,8 @@ Note: Atom numbers start at "0"
 
 The script is not 100% complete and has a lot of untrimmed/useless code. However, it is usable in its current form.
 
-More details and commands can be found by simply running the script without input
+More details and commands can be found by simply running the script without input, or viewing the readme 
+(yes I really uploaded it as a PDF!)
 
 Have fun
 
