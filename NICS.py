@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 """
 2021-02-17
-Karn Parmar
+Karn Parmar (Karnjit Parmar)
 an organic chemist
+University of Saskatchewan
 
-This script allows you to automatically  locate aromatic rings from xyz coordinates. 
+This script allows you to automatically locate aromatic rings from xyz coordinates. 
 There are various options for the user in placing the ghost atom (Bq).
 
 Note: Since the script begins with a random atom in the input coordinates it is not necessarily the case
