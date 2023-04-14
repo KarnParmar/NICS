@@ -20,9 +20,6 @@ Note: Atom numbers start at "0"
 
 The script is not 100% complete and has a lot of untrimmed/useless code. However, it is usable in its current form.
 
-More details and commands can be found by simply running the script without input, or viewing the readme 
-(yes I really uploaded it as a PDF!)
-
 Have fun
 
 =)
